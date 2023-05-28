@@ -1,0 +1,41 @@
+.login-form-input {
+    margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 400px;
+    height: 35px;
+    position: relative;
+    border-radius: 20px;
+    border-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 0.2s linear;
+}
+
+.login-form-input:hover {
+    transform: scale(1.04);
+}
+
+.login-form-input:active {
+    transform: scale(0.98);
+}
+
+.login-form-submit {
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    right: 35%;
+    border-radius: 0px 20px 20px 0px;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.2s linear;
+}
+
+.login-form-input::placeholder {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.login-form-submit:active {
+    transform: scale(0.1);
+}

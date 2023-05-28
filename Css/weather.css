@@ -1,0 +1,9 @@
+#weather {
+    position: fixed;
+    top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.87);
+    text-shadow: 2px 2px black;
+    pointer-events: none;
+}

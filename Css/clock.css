@@ -1,0 +1,16 @@
+#clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 60px;
+    height: 150px;
+    width:  420px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bolder;
+    font-style: small-caps bold 24px/1 sans-serif;
+    color: rgba(255, 255, 255, 0.89);
+    text-shadow: 6px 6px 6px black;
+    pointer-events: none;
+}
